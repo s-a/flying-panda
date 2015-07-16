@@ -17,6 +17,9 @@
 ## Usage
 ```fly;``` Serve files in current directory.
 
+## Build in mockup functions
+The server mirrors all get an posts requests and returns the submited data in JSON format. Checkout the [tests](/test/main.js) to get more details.
+
 ## Options
 ```
 fly --help
