@@ -1,0 +1,46 @@
+{
+  "name": "flying-panda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "fly": "./lib/index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "mocha",
+    "dev": "node lib/dev.js",
+    "cover-html": "jscoverage lib lib-cov && mocha -R html-cov > coverage.html && rm lib-cov/*.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/flying-panda.git"
+  },
+  "keywords": [
+    "server",
+    "static",
+    "post",
+    "get",
+    "http",
+    "rpc"
+  ],
+  "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/flying-panda/issues"
+  },
+  "homepage": "https://github.com/s-a/flying-panda#readme",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "commander": "^2.8.1",
+    "express": "^4.13.1",
+    "supertest": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^6.0.1",
+    "jscoverage": "^0.5.9",
+    "mocha-lcov-reporter": "0.0.2",
+    "coveralls": "^2.11.2"
+  }
+}
