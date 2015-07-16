@@ -1,4 +1,5 @@
 # flyingPanda
+
 [![Build Status](http://img.shields.io/travis/s-a/flying-panda.svg)](https://travis-ci.org/s-a/flying-panda) 
 [![Coverage Status](https://coveralls.io/repos/s-a/flying-panda/badge.svg?branch=master&service=github)](https://coveralls.io/github/s-a/flying-panda?branch=master) 
 [![Codacy Badge](https://www.codacy.com/project/badge/75dfaeb6f4114712b66582efe840ed36)](https://www.codacy.com/app/stephanahlf/flying-panda) 
@@ -15,7 +16,9 @@
 ```npm install flying-panda -g;```
 
 ## Usage
-```fly;``` Serve files in current directory.
+```fly;``` Serve files in current directory.  
+
+Demo usage: [https://youtu.be/pBnX2vO2sxA](https://youtu.be/pBnX2vO2sxA)
 
 ## Build in mockup functions
 The server mirrors all get an posts requests and returns the submited data in JSON format. Checkout the [tests](/test/main.js) to get more details.
