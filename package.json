@@ -10,7 +10,8 @@
   "scripts": {
     "test": "mocha",
     "dev": "node lib/dev.js",
-    "cover-html": "jscoverage lib lib-cov && mocha -R html-cov > coverage.html && rm lib-cov/*.*"
+    "cover-html": "jscoverage lib lib-cov && mocha -R html-cov > coverage.html && rm lib-cov/*.*",
+    "bump": "npm version patch && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
